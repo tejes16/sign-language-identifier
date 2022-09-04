@@ -12,22 +12,32 @@
 
 # install requirements
   pip install opencv-python
+  
   pip install django
+  
   pip install torch
+  
   git clone https://github.com/ultralytics/yolov5
 
 # Things to note:
   The weights file contains the trained model. The output will be produced (best.pt)
+  
   A complimenatry website has been prepared. You can use it if you wish to.
 
 
 # for Training the model
   run the ipyb file and run all the cells and you will receive the weight file
+  
   for detection in terminal cd yolov5
+  
       python detect.py --weights {weight file} --source video/images
+      
   for training in terminal cd yolov5
+  
       python train.py --img 416 --batch 16 --epochs 100 --data '../data.yaml' --cfg ./models/custom_yolov5s.yaml --weights '' --name yolov5s_results  --cache
+      
   for django cd NGO 
+  
       python manage.py runserver
 
 # website demo
