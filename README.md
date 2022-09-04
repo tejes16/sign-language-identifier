@@ -2,10 +2,10 @@
   In this project we have created a Sign Language Identifier from scratch to detect various gestures used in sign language. The Model has achieved  89.50 precision. The code for the Transfer Learning Model is in the train.ipynb file. We have also presented the transfer Learning model in this file.
 
 # In order to work several packages are meant to be installed
-  yolov5
-  django
-  pytorch
-  opencv
+  -> yolov5
+  -> django
+  -> pytorch
+  -> opencv
 
 # install requirements
   pip install opencv-python
