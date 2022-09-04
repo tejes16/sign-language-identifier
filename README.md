@@ -36,7 +36,8 @@
   
       python train.py --img 416 --batch 16 --epochs 100 --data '../data.yaml' --cfg ./models/custom_yolov5s.yaml --weights '' --name yolov5s_results  --cache
       
-  for django cd NGO 
+  for django (website)
+       cd NGO 
   
       python manage.py runserver
 
