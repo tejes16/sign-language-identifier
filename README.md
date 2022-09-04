@@ -31,4 +31,4 @@
   https://www.canva.com/design/DAFLJAWBhkY/0ZqQ0xzI-UE0ENR5xrvjTg/edit?utm_content=DAFLJAWBhkY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 # model output demo
-  visit demo folder
+  visit exp3 folder
