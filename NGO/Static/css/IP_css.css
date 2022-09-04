@@ -1,0 +1,20 @@
+body{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-image:url("images/Bg.png");
+}
+form{
+	font-family: 'Poppins', sans-serif;
+	font-size: 2em;
+}
+input{
+font-family: 'Poppins', sans-serif;
+	font-size: 0.5em;	
+}
+.sum{
+	background: green;
+	border:none;
+	font-family: 'Poppins', sans-serif;
+	font-size: 0.7em;
+}

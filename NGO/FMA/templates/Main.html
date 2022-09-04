@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ACDEK|Home</title>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Lobster&family=Montserrat:wght@200&family=Poppins:wght@800&display=swap" rel="stylesheet">
+	<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+	<script src="https://kit.fontawesome.com/4d3ebe1415.js" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat:wght@200&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="{% static 'css/Hm_css.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'css/Main_css.css' %}">
+	<link rel="shortcut icon" href="{% static 'images/Lo.png' %}">
+</head>
+<body>
+	<ul>
+		<li><img src="{% static 'images/Lo.png' %}" class="Lg"></li>
+		<li><a href="{% url 'Home' %}"><ul style="padding: 0em; margin: 0em;"><li style="float: none;margin: 0;padding: 0;"><p style="display: inline;margin:0; padding:0; padding-left:0.5em;font-family: 'Poppins', sans-serif;color: white;font-size: 2em;">ACDEK</p></li><li style="padding: 0; margin: 0; float:right;"><p style="display: inline;margin:0; padding:0; padding-left:0.5em;font-family: 'Poppins', sans-serif;color: white;font-size: 1em;">by JOYBOY</p></li></ul></a>
+	</ul>
+	<div style="margin-top: 10em;" class="bd">
+	<p class="H1">SIGN LANGUAGE IDENTIFIER</p>
+	<a href="{% url 'Regi' %}" class="L1"><p>GET STARTED<i class="fi fi-sr-arrow-right" style="margin-left:0.5em;"></i></p></a></div>
+</body>
+</html>

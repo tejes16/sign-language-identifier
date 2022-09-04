@@ -1,0 +1,28 @@
+body{
+	color: white;
+	margin: 0;
+	padding: 0;
+	background-image:url("images/Bg.png");
+}
+.H1{
+	margin: 0;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	font-size: 4em;
+	color: white;
+}
+.L1{
+	display: inline-block;
+	margin: 0;
+	padding: 0 1em 0 1em;
+	margin-left: 27.3em;
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	font-size:2em;
+	text-decoration: none;
+	border: 0.1em solid white;
+}
+.L1:hover{
+	background:white;
+	color: #FF66C4;
+}

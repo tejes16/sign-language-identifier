@@ -1,0 +1,36 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ACDEK|Live</title>
+	<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+	<script src="https://kit.fontawesome.com/4d3ebe1415.js" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat:wght@200&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="{% static 'css/Main_css.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'css/VP_css.css' %}">
+	<link rel="shortcut icon" href="{% static 'images/Lo.png' %}">
+</head>
+<body onload="showPage()">
+	<ul>
+		<li><img src="{% static 'images/Lo.png' %}" class="Lg"></li>
+		<li><a href="{% url 'Home' %}"><ul style="padding: 0em; margin: 0em;"><li style="float: none;margin: 0;padding: 0;"><p style="background:transparent; display: inline;margin:0; padding:0; padding-left:0.5em;font-family: 'Poppins', sans-serif;color: white;font-size: 2em;">ACDEK</p></li><li style="padding: 0; margin: 0; float:right;"><p style="display: inline;margin:0; padding:0; padding-left:0.5em;background:transparent;font-family: 'Poppins', sans-serif;color: white;font-size: 1em;">by JOYBOY</p></li></ul></a>
+	</ul>
+	<div>
+	<div id="loader" style="display:block;"></div>
+	<div id="vid" style="display:none; padding: 0;margin: 0;">
+		<img src="{% url 'video_feed' %}" width="700" height="450" style="margin:0;margin-top:2em; border-radius:0.5em;display:inline;">
+		<a href="{% url 'Regi' %}" style="margin: 0;"><p><i class="fi fi-br-cross"></i></p></a></div>
+</div>
+<script>
+var myVar; 
+function Load() {
+  myVar = setTimeout(showPage,1000);
+}
+function showPage() {
+  document.getElementById("vid").style.display = "block";
+  document.getElementById("loader").style.display = "none";
+}
+</script>
+</body>
+</html>
