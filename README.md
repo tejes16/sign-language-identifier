@@ -3,8 +3,11 @@
 
 # In order to work several packages are meant to be installed
   -> yolov5
+  
   -> django
+  
   -> pytorch
+  
   -> opencv
 
 # install requirements
